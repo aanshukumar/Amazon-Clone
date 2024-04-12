@@ -200,7 +200,7 @@ span {
 
 .box_img {
     height: 300px;
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -348,14 +348,22 @@ ul li {
     margin-bottom: 80px;
 }
 
+.box-content{
+    height: 200px;
+}
+
 .box {
+    height: 200px;
     width: 45%;
+    font-size: 10px;
 }
 
 .box_img {
-    /* height: 100%; */
-    /* width: 100%; */
+    height: 150px;
     background-size: cover;
+    background-position: center;
+
+
 }
 
 .shop_section-1 {
@@ -365,32 +373,6 @@ ul li {
 .shop_section-2 {
     margin-top: -2px;
 }
-
-/* .shop_section-1 {
-        margin-top: -65px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px;
-
-    }
-
-    .shop_section-1 box_{
-        width: 48%;
-        margin-bottom: 10px;
-    
-    }
-    .shop_section-2 {
-        margin-top: -65px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px; 
-    
-    }
-
-    .shop_section-2 box{
-        width: 100vw;
-    
-    } */
 
 .foot-panel2 {
     padding: 50px;
