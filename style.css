@@ -41,6 +41,10 @@
     width: 100px;
 }
 
+.nav-cart,a{
+    color:white;
+}
+
 .border {
     border: 1.5px solid transparent;
 }
@@ -321,6 +325,7 @@ ul li {
     .navbar-1 {
         display: flex;
         justify-content: space-evenly;
+        border-bottom: 1px solid whitesmoke;
     }
 
     .panel {
