@@ -41,6 +41,10 @@
     width: 100px;
 }
 
+.nav-cart,a{
+    color:white;
+}
+
 .border {
     border: 1.5px solid transparent;
 }
